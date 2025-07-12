@@ -2,6 +2,24 @@ body {
     background-color: #f3f4f6;
 }
 
+.dark {
+    background-color: #090a0f;
+    color: #f1f1f1;
+}
+
+.dark .theme-btn {
+    background-color: #36393f;
+}
+
+.dark .container {
+    background-color: #1b2735;
+}
+
+
+.dark a {
+    color: #666ee8;
+}
+
 .theme-btn {
     font-size: 12px;
     background-color: #111111;
