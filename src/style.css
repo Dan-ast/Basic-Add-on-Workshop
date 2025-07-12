@@ -22,6 +22,17 @@ img {
     max-width: 100%;
 }
 
+.egyptology-intro-img {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.egyptology-intro-img:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+
+}
+
 button {
     display: block;
     margin: 0 auto;
@@ -47,8 +58,27 @@ button:hover {
     border-radius: 10px;
 }
 
+.grid {
+    margin: 20px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.grid img:hover {
+    transform: scale(1.3);
+}
+
 .container p {
     font-size: 18px;
+    line-height: 1.5;
 }
 
 footer {
